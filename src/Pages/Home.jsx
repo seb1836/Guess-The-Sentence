@@ -6,6 +6,8 @@ import '../App.css';
 const Home = (props) =>{
 
 const initiateGame = () => {
+    props.location.state={random:1}
+    console.log("before",props.history)
 props.history.push("/GameSession")
 
 }
