@@ -1,35 +1,32 @@
-import React,{Fragment,Component} from 'react';
-import '../App.css';
-
+import React, { Fragment, Component } from 'react'
+import '../App.css'
 
 class HiddenLetter extends Component {
-
-    debug = () => {
-        console.log("debug")
+  debug = () => {
+    console.log('debug')
+  }
+  checkIfEmptyChar = () => {
+    if (this.props.hiddenCharacter === ' ') {
+      return <span></span>
     }
-checkIfEmptyChar = () => {
+    return this.props.hiddenCharacter
+  }
 
-    if (this.props.hiddenCharacter === " "){
-        return <span></span>
-    }return this.props.hiddenCharacter
-}
+//   callSetChars = () => {
+//     if (typeof this.props.hiddenCharacter === 'string' && this.props.hiddenCharacter !== ' ') {
+//       this.props.setChars()
+//     }
+//   }
 
-hideOrDisplayLetter = () => {
-
-}
-
-    render(){
-        return(
-        <div className="letter">{this.props.hiddenCharacter}
+  render() {
+    return (
+      <div className='letter'>
+        {this.props.hiddenCharacter}
         
         {this.debug()}
-        </div>
-        )
-    }
-
+      </div>
+    )
+  }
 }
-
-
-
 
 export default HiddenLetter
