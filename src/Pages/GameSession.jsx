@@ -137,7 +137,7 @@ keyRenderer = () => {
 hearthRenderer = () => {
     let hearth = new Array(this.state.tryRemaining)
     
-        hearth.fill(<i class="fa fa-heart"></i>)
+        hearth.fill(<i class="fa fa-heart fa-2x"></i>)
     
     return hearth
 }
@@ -146,14 +146,14 @@ hearthRenderer = () => {
             isArrayResultInitialise =false
             return <Redirect to ={{pathname:'/GameResult',state:{result:"win"}}}/>
         }
-        return(<Fragment>
+        return(<div className="gameSession">
             <h1>GameSession</h1>
             
             <div className="sentence">{this.hiddenLetterRenderer()}</div>
             {this.checkGameStatus()}
             <div className="keyRenderer">{this.keyRenderer()}</div>
             {this.hearthRenderer()}
-            </Fragment>
+            </div>
         )
         
     }

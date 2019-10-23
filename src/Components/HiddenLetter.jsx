@@ -7,7 +7,7 @@ class HiddenLetter extends Component {
   }
   checkIfEmptyChar = () => {
     if (this.props.hiddenCharacter === ' ') {
-      return <span></span>
+      return <span className="letterSpace"></span>
     }
     return this.props.hiddenCharacter
   }
