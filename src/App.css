@@ -24,10 +24,12 @@
 .sentence{
   display:flex;
   height: 13px;
+  margin-left: 31%;
+  margin-top: 101px
 }
 
 span {
-  padding-left: 10px
+  padding-left: 50px
 }
 
 .display{
@@ -50,3 +52,36 @@ span {
 .underline {
   border-style: solid
 }
+.welcome-title{
+  text-align: center;
+}
+button{
+  margin-left:47%
+}
+
+body{
+  background: burlywood;
+}
+
+.fa{
+  color:dodgerblue;
+  font-size: 30px;
+}
+
+h1{
+  text-align: center;
+}
+
+.gameSession{
+  text-align: center;
+}
+
+.keyRenderer{
+  margin-top: 250px;
+  padding-bottom: 130px;
+}
+
+.letterSpace {
+  padding-left: 50px;
+}
+
