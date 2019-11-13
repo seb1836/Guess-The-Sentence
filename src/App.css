@@ -2,43 +2,27 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #09d3ac;
 }
 
-.sentence{
-  display:flex;
+.sentence {
+  display: flex;
   height: 13px;
   margin-left: 31%;
-  margin-top: 101px
+  margin-top: 101px;
 }
 
 span {
-  padding-left: 50px
+  padding-left: 35px;
 }
 
-.display{
-  display: flex
+.display {
+  display: flex;
 }
 
-.hidden{
-  display:none;
-  
+.hidden {
+  display: none;
 }
 
 .letter {
@@ -46,42 +30,41 @@ span {
   width: 13px;
   margin-left: 5px;
   padding-bottom: 18px;
-  text-align: center
+  text-align: center;
 }
 
 .underline {
-  border-style: solid
+  border-style: solid;
 }
-.welcome-title{
+.welcome-title {
   text-align: center;
 }
-button{
-  margin-left:47%
+button {
+  margin-left: 47%;
 }
 
-body{
+body {
   background: burlywood;
 }
 
-.fa{
-  color:dodgerblue;
+.fa {
+  color: dodgerblue;
   font-size: 30px;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
-.gameSession{
+.gameSession {
   text-align: center;
 }
 
-.keyRenderer{
-  margin-top: 250px;
+.keyRenderer {
+  margin-top: 145px;
   padding-bottom: 130px;
 }
 
 .letterSpace {
   padding-left: 50px;
 }
-
